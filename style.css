@@ -1,6 +1,8 @@
 * {
     margin: 0px auto;
     box-sizing: border-box;
+    vertical-align: top;
+
 }
 body {
     font-size: 17px; 
@@ -8,12 +10,12 @@ body {
 nav {
     display: flex;
     margin: 0px auto;
-    min-width: 30px;
-    max-width: 765px;
+    min-width: 300px;
+    max-width: 1000px;
     background-color: gainsboro;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0px 30px;
     height: 80px;
 }
 
@@ -39,11 +41,12 @@ nav .btn {
 }
 
 main {
-    width: 80%;
     display: flex;
     margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
     margin-top: 30px;
-    gap: 20px;
+    gap: 200px;
 }
 
 .colmn1 {
@@ -74,9 +77,8 @@ main {
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 10px;
 }
-.colmn2 .row {
+.colmn2 .row{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,6 +86,7 @@ main {
     padding: 20px;
     gap: 15px;
 }
+
 .colmn2 .btn {
     height: 35px;
     width: 200px;
@@ -103,4 +106,5 @@ main {
 .row {
     display: flex;
     border: solid 2px black;
+
 }
